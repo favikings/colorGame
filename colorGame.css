@@ -1,0 +1,84 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container{
+    max-width:400px;
+    margin: 30px auto;
+    
+}
+.square {
+    width:30%;
+    padding-bottom:30%;
+    margin:1.66%;
+    background:purple;
+    float:left;
+    border-radius: 15%;
+    transition: background 0.5s;
+    --webkit-transition: background 0.5s;
+    --moz-transition: background 0.5s;
+}
+
+h1{
+    text-align: center;
+    background: orangered;
+    color:#fff;
+    margin: 0;
+    line-height:1.1;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding:20px 0px;
+}
+
+#colorDisplay{
+    font-size:200%;
+    
+}
+
+#strip{
+    background:#fff;
+    height:30px;
+    text-align:center;
+    color:#000;
+}
+
+.selected{
+    background:orangered;
+    color:#fff;
+}
+
+
+
+button{
+    border:none;
+    background:none;
+    text-transform: uppercase;
+    height:100%;
+    font-weight:700;
+    color:orangered;
+    letter-spacing: 1px;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+}
+
+button:active{
+    border-radius: none;
+}
+
+button:hover{
+    background-color: orangered;
+    color:#fff;
+    transition: all 0.5s;
+    --webkit-transition: all 0.5s;
+    --moz-transition: all 0.5s;
+}
+
+.changeButtonOnCorrect{
+
+}
+#message{
+   display: inline-block;
+   width:20%;
+}
